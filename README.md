@@ -66,7 +66,7 @@ Developed by: Samyuktha S
 RegisterNumber:  212222240089
 */
 
-```
+
 UP COUNTER
 module upcounter(D,C,B,A,CLK);
 output reg D,C,B,A;
@@ -79,8 +79,7 @@ begin
 	A=(1^A);
 end
 endmodule
-```
-```
+
 DOWN COUNTER
 module downcounter(A,B,C,D,CLK);
 input CLK;
@@ -93,7 +92,7 @@ begin
 	D=1^(D);
 end
 endmodule
-```
+
 ```
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
